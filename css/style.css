@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Gelasio", serif;
+
+}
+header{
+    background: #2A2A2A;
+
+}
+.navbar1{
+    background-color: #2A2A2A;
+}
+header a{
+    color: #ffffff;
+}
+header .button1{
+    background-color: #E2A300;
+}
+header h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+header h1{
+    font-size: 72px;
+    font-weight:700;
+}
+header p{
+    font-size: 18px;
+    font-weight: 300;
+}
+section{
+    background-color: #414141;
+    
+}
+section .card1{
+    background: #2A2A2A;
+    border: 1px solid #2A2A2A;
+    border-radius: 3%;
+    
+}
+section .card-body1{
+    position: relative;
+}
+section .img1{
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    
+    
+}
+.card2{
+    border: 10px solid #2A2A2A;
+    border-radius: 4px;
+}
+main{
+    background-color: #2A2A2A;
+}
+main .portfolio{
+    background-color: #414141;
+    border-radius: 10px;
+    margin: auto;
+    padding-bottom: 15px;
+    
+}
+main .portfolio .img img{
+    border-radius: 10%;
+}
+footer{
+    background-color: #2d2d2d;
+    padding-top: 20px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 350px) {
+    header h1{
+        font-size: 45px;
+    }
+}
